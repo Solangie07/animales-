@@ -78,3 +78,10 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+.contenedor {
+  transition: backgroud-color 0.5 ease;
+  padding: 40px;
+  background-color: aliceblue;
+background-color: blanchedalmond;
+}
+
