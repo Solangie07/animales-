@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
 html {
   box-sizing: border-box;
   height: 100%;
@@ -11,7 +12,10 @@ html {
 
 html,
 body {
-  margin: 0;
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 3;
   padding: 0;
   
   
@@ -23,6 +27,9 @@ body {
 
 h2 {
   font-size: 1.1em;
+  font-family: "Story Script", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 #contenedor {
@@ -34,12 +41,14 @@ h2 {
 #tituloPagina {
   margin-top: 1em;
   margin-bottom: 0;
-  font-family: sans-serif;
+  font-family: "Story Script", sans-serif;
+  font-weight: 850;
+  font-style: normal;
 }
 
 #foto {
  height: 300px;
-  border: #ff7300 solid 5px;
+  border: #7bcbe4e1 solid 5px;
   margin-top: 15px;
 }
 
@@ -57,8 +66,15 @@ h2 {
 
 #boton {
   font-size: 0.9em;
-  background-color: #3d00fdb5;
-  color: white;
+  background-color: #846fc7e8;
+  color: rgba(139, 232, 248, 0.795);
   margin-bottom: 2em;
   cursor: pointer;
+}
+body {
+  background-color: beige;
+  font-family: 'Times New Roman', Times, serif;
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
